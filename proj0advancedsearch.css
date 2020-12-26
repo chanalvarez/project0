@@ -1,0 +1,73 @@
+.img{
+	font-size: 15px;
+	color: black;
+  	text-align:left;
+	text-decoration: none;
+	display: inline-block;
+   	line-height: 24px;    
+	position: absolute; 
+	top: 20px; 
+	right: 0; 
+	width:150px;
+}
+h1{
+	font-size: 45px;
+	color: #d93025;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+h2{
+	font-size:20px;
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	
+}
+div {
+	color: black;
+	font-size: 15px;
+	position: absolute;
+	top: 200px;
+	left: 50px;
+}
+
+.wrd, .wrda, .wrdb, .wrdc{
+	border-radius: 1px;
+  	border: 1px solid #d9d9d9;
+  	border-top: 1px solid #c0c0c0;
+  	font-size: 13px;
+   	height: 25px;
+	width: 800px;
+   	padding: 1px 8px;
+	
+}
+.wrd{
+	margin-left: 91px;
+	margin-bottom: 10px;
+}
+.wrda{
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.wrdb{
+	margin-left: 77px;
+	margin-bottom: 10px;
+}
+.wrdc{
+	margin-left: 61px;
+	margin-bottom: 10px;
+}
+.bttn{
+	font-size: 12px;
+	position: absolute; 
+	top: 400px; 
+	left: 928px; 
+	border-radius: 5px;
+ 	border: 1px solid #A9A9A9;
+ 	width: 130px;
+ 	height: 30px;
+    	background-color: #4d90fe;
+  	border: 1px solid #3079ed;
+    	color: #fff;
+}
