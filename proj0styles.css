@@ -2,6 +2,7 @@
 
     /* image and advanced search links */
 .img, .advncd{
+    font-family: arial,sans-serif;
     font-size: 15px;
     color: black;
       text-align:left;
@@ -13,68 +14,28 @@
 .img{
    position: absolute; 
    top: 20px; 
-   right: 0; 
-   width:250px;
+   right: 200px; 
+
 }
     /* advanced search link */
 .advncd{
    position: absolute; 
    top: 20px; 
-   right: 0; 
-   width:150px;
+   right: 50px; 
+   
 }
     /* headers for google search and image search page */
-.g{
-   color:#4285F4;
-   position: absolute; 
-   top: 170px; 
-   left: 527px;
-   font-size: 100px;
-}
-.o{
-   color: #EA4335;
-   position: absolute;
-   top: 152px; 
-   left: 606px; 
-   font-size: 100px;
-}
-.O{
-   color: #FBBC05;
-   position: absolute;
-   top: 10px; 
-   left: 653px;
-   padding-top: 125px;
-   font-size: 100px;
-}
-.G{
-   color:#4285F4;
-   position: absolute;
-   top: 10px;  
-   left:700px;
-   padding-top: 92px;
-   font-size: 100px;
-}
-.l{
-   color:#34A853;
-   position: absolute;
-   top: 10px; 
-   left:750px;
-   padding-top: 58px;
-   font-size: 100px;
-}
-.e{
-   color:#EA4335;
-   position: absolute;
-   top: 1px;
-   left: 773px;
-   font-size: 100px;
+#logo{
+    position: absolute;
+    top: 250px;
+    left: 550px;
 }
     /* end headers for google and image search page */
 
     /* google search form */
 #frm{
    position: absolute; 
-   right: 530px; 
+   left: 520px; 
    top: 360px;
    background-color: transparent;
    border-radius: 15px;
@@ -89,7 +50,7 @@
    top: 40px; 
    right: 170px; 
    width:150px;
-   border-radius: 25px;
+   border-radius: 5px;
    border: 1px solid #A9A9A9;
    padding: 5px;
    width: 150px;
@@ -101,7 +62,7 @@
    top: 40px; 
    left: 170px; 
    width:150px;
-   border-radius: 25px;
+   border-radius: 5px;
    border: 1px solid #A9A9A9;
    padding: 5px;
    width: 150px;
@@ -112,21 +73,21 @@
 /* image search page */
     /* google search link */
 .ggle {
+    font-family: arial,sans-serif;
 	font-size:15px;
 	color: black;
 	text-align: left;
 	text-decoration: none;
 	display: inline-block;
-	line-height: 24px;
 	position: absolute; 
-	top: 10px; 
-	right: 0; 
+	top: 20px; 
+	right: 30px; 
 	width:150px;
 }
     /* image search form */
 #farm{
     position: absolute; 
-	left: 510px; 
+	left: 520px; 
     top: 360px;
     background-color: transparent;
     border-radius: 15px;
@@ -138,12 +99,13 @@
 }
     /* p image search */
 #mg {
+    font-family: Arial, sans-serif;
 	font-size:20px;
-	color: blue;
+	color: rgb(39, 127, 243);
 	position: absolute; 
-	top: 305px; 
-	left: 750px; 
-	width:150px;
+	top: 300px; 
+	left: 760px; 
+	
 
 }
     /* submit button image search */
@@ -151,7 +113,7 @@
 	position: absolute; 
 	top: 40px; 
 	left: 77px; 
-	border-radius: 25px;
+	border-radius: 5px;
   	border: 1px solid #A9A9A9;
   	padding: 5px;
   	width: 150px;
@@ -162,6 +124,7 @@
 /* advanced search form */
     /* google search link */
 .search{
+    font-family: arial, sans-serif;
 	font-size: 15px;
 	color: black;
   	text-align:left;
@@ -170,56 +133,21 @@
    	line-height: 24px;    
 	position: absolute; 
 	top: 20px; 
-	right: 0; 
-	width:150px;
+	right: 50px; 
+	
 }
     /* headers for advanced search form */
-.go{
-    font-size: 40px;
-    color: #4285F4;
+#minilogo{
+    height: 30px;
     position: absolute;
-    top: -20px;
-    left: 30px;
-}
-.oo{
-    font-size: 40px;
-    color: #EA4335;
-    position: absolute;
-    top: -26px;
-    left: 62px;
-}
-.og{
-    font-size: 40px;
-    color: #FBBC05;
-    position: absolute;
-    top: -33px;
-    left: 81px;
-}
-.gl{
-    font-size: 40px;
-    color: #4285F4;
-    position: absolute;
-    top: -46px;
-    left: 100px;
-}
-.le{
-    font-size: 40px;
-    color: #34A853;
-    position: absolute;
-    top: -61px;
-    left: 118px;
-}
-.ee{
-    font-size: 40px;
-    color: #EA4335;
-    position: absolute;
-    top: -88px;
-    left: 126px;   
+    top: 20px;
+    left: 20px;
 }
     /* end header advanced search form */ 
 
     /* last header advanced search */
 h7{
+    font-family: arial, sans-serif;
 	font-size: 30px;
 	color: #d93025;
 	position: absolute;
@@ -227,37 +155,46 @@ h7{
 	left: 50px;
 }
     /* p advanced search */
+.par{
+    font-family: arial,sans-serif;
+}
 #todo{
+    font-family: arial, sans-serif;
     font-size: 20px;
     position: absolute;
-    top: 160px;
-    right: 260px;
+    top: 165px;
+    right: 227px;
 }
 #tri{
+    font-family: arial, sans-serif;
     font-size: 13px;
     position: absolute;
     top: 243px;
-    right: 211px;
+    right: 181px;
 }
 #rat{
+    font-family: arial, sans-serif;
     font-size: 13px;
     position: absolute;
     top: 280px;
-    right: 246px;
+    right: 215px;
 }
 #OR{
+    font-family: arial, sans-serif;
     font-size: 13px;
     position: absolute;
     top: 320px;
-    right: 125px;
+    right: 81px;
 }
 #jack{
+    font-family: arial, sans-serif;
     font-size: 13px;
     position: absolute;
     top: 355px;
-    right: 80px;
+    right: 30px;
 }
 #fnd{
+    font-family: arial, sans-serif;
 	font-size:20px;
 	position: absolute;
 	top: 180px;
@@ -275,6 +212,9 @@ div {
     top: 250px;
 }
     /* advanced search text field */
+#alll, #al, #la, #lla{
+    font-family: arial, sans-serif;
+}
 .wrd, .wrda, .wrdb, .wrdc{
 	border-radius: 1px;
   	border: 1px solid #d9d9d9;
@@ -286,19 +226,19 @@ div {
 	
 }
 .wrd{
-	margin-left: 91px;
+	margin-left: 78px;
 	margin-bottom: 10px;
 }
 .wrda{
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-bottom: 10px;
 }
 .wrdb{
-	margin-left: 77px;
+	margin-left: 65px;
 	margin-bottom: 10px;
 }
 .wrdc{
-	margin-left: 61px;
+	margin-left: 43px;
 	margin-bottom: 10px;
 }
     /* end text field */
